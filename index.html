@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Desarrollador web en proceso</title>
+    <title>Desarrollador Web en Proceso</title>
     </head>
     <body>
-        <img src="foto.jpg.jpg" alt="Mi Foto" width="1900" height="254"/>
 
-        <h1> Juliana Jimenez </h1>
-        <h2> DESARROLLADOR WEB EN PROCESO </h2>
-        <p> Desde que descubrí el mundo del desarrollo web, supe que mi destino era crear soluciones digitales mágicas. Con años de experiencia en desarrollo front-end y back-end, he trabajado en proyectos increíbles que desafían las fronteras de la tecnología. Mis logros incluyen el diseño de sitios web interactivos y funcionales que transforman la experiencia del usuario. </p>
+        <div>
+            <header>
+                <h1>Juliana Jimenez</h1>
+                <h2>DESARROLLADOR WEB EN PROCESO</h2>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#imagen">¡Conoceme!</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <article>
+                    <section id="sobre-mi">
+                        <h3>Sobre mí</h3>
+                        <p>
+                            Desde que descubrí el mundo del desarrollo web, supe que mi destino era crear soluciones digitales mágicas. 
+                            Con experiencia en desarrollo front-end y back-end, he trabajado en proyectos increíbles que desafían las fronteras de la tecnología. 
+                            Mis logros incluyen el diseño de sitios web interactivos y funcionales que transforman la experiencia del usuario.
+                        </p>
+                    </section>
+
+                    <section id="habilidades">
+                        <h3>Habilidades</h3>
+                        <ul>
+                            <li>Desarrollo Front-End (HTML, CSS, JavaScript)</li>
+                            <li>Desarrollo Back-End (PHP, MySQL)</li>
+                            <li>Diseño de Interfaces y Experiencia de Usuario</li>
+                        </ul>
+                    </section>
+                </article>
+                <section id="imagen">
+                    <h3> ¡Conoceme!</h3>
+                    <img src="cat.jpg" alt="Mi Foto"/>
+                </section>
+                <section id="contacto">
+                    <h3>Conéctate conmigo</h3>
+                    <p>Visita mi <a href="https://www.linkedin.com/" target="_blank">perfil de LinkedIn</a> para conocer más sobre mi trayectoria.</p>
+
+                    <h3>Recomendaciones</h3>
+                    <form>
+                        <label>Nombre:</label>
+                        <input type="text" name="nombre"><br><br>
+
+                        <label>Comentario:</label><br>
+                        <textarea name="comentario"></textarea><br><br>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </section>
+            </main>
+
+            <footer>
+                <p>© 2025 Juliana Jimenez - Todos los derechos reservados</p>
+            </footer>
+        </div>
+
+    </body>
 </html>
